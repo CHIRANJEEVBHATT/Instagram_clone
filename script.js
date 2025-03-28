@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
         
         const existStory = `
             <div class="story-container">
-                <a class="plus-icon" href="/story.html">+</a>
+                <a class="plus-icon" href="story.html">+</a>
                 <p>Your Story</p>
             </div>
-            <div class="story"><img src="/ASSETS/rohit sharma.png" alt="Rohit Sharma"><p>Rohit Sharma</p></div>
-            <div class="story"><img src="/ASSETS/hardik pandey.png" alt="Hardik Pandey"><p>Hardik Pandey</p></div>
-            <div class="story"><img src="/ASSETS/images.jpeg" alt="Virat Kohli"><p>Virat Kohli</p></div>
+            <div class="story"><img src="ASSETS/rohit sharma.png" alt="Rohit Sharma"><p>Rohit Sharma</p></div>
+            <div class="story"><img src="ASSETS/hardik pandey.png" alt="Hardik Pandey"><p>Hardik Pandey</p></div>
+            <div class="story"><img src="ASSETS/images.jpeg" alt="Virat Kohli"><p>Virat Kohli</p></div>
         `;
 
         storySection.innerHTML = existStory;
