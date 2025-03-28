@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Story</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.upload-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+}
+
+#preview {
+    margin: 10px 0;
+    max-width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+#preview img, #preview video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+</style>
+<body>
+    <div class="upload-container">
+        <h2>Upload Story</h2>
+        <input type="file" id="fileInput" accept="image/*,video/*">
+        <div id="preview"></div>
+        <button id="shareStory">SHARE STORY</button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
